@@ -11,10 +11,13 @@
 /* This is the overall wrapper, it should be treated as the `body` section. */
 
 .markdown-here-wrapper {
+  font-family: Avenir, PT-sans, microsoft-yahei;
   font-size: 15px;
+  color: #333;
   line-height: 1.8em;
   letter-spacing: 0.1em;
   margin: 0.5em 1em;
+  text-align: justify;
 }
 
 /* To add site specific rules, you can use the `data-md-url` attribute that we
@@ -24,14 +27,17 @@
 /* .markdown-here-wrapper[data-md-url*="mail.yahoo."] ul { color: red; } */
 
 pre, code {
-  font-family: PT-sans;
+  font-family: Avenir, PT-sans;
+
 }
 
 code {
-  padding: 0.2em 0.5em;
-  white-space: pre-wrap;
   background-color: #F8F8F8;
+  padding: 0.2em 0.5em;
+  font-size: 12px;
+  border-radius: 2px;
   display: inline; /* added to fix Yahoo block display of inline code */
+  white-space: pre-wrap;
 }
 
 pre {
@@ -69,21 +75,23 @@ p {
 }
 
 table, pre, dl, blockquote, q, ul, ol {
-  margin: 1.2em 0;
+  margin: 1.2em 0em;
 }
 
 ul, ol {
-  padding-left: 2em;
+  padding-left: 0em;
+  margin: 1.2em 2em;
+
 }
 
 li {
-  margin: 0.5em 0;
+  margin: 0.2em 0;
 }
 
 /* Space paragraphs in a list the same as the list itself. */
 li p {
   /* Needs !important to override rule above. */
-  margin: 0.5em 0 !important;
+  margin: 0.2em 0 !important;
 }
 
 /* Smaller spacing for sub-lists */
@@ -94,12 +102,12 @@ ul ul, ul ol, ol ul, ol ol {
 
 /* Use Roman numerals for sub-ordered-lists. (Like Github.) */
 ol ol, ul ol {
-  list-style-type: lower-roman;
+  list-style-type: circle;
 }
 
 /* Use letters for sub-sub-ordered lists. (Like Github.) */
 ul ul ol, ul ol ol, ol ul ol, ol ol ol {
-  list-style-type: lower-alpha;
+  list-style-type: square;
 }
 
 dl {
@@ -119,6 +127,7 @@ dl dd {
 
 blockquote, q {
   border-left: 4px solid #DDD;
+  background-color: #fafafa;
   padding: 0 1em;
   color: #777;
   quotes: none;
@@ -132,11 +141,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.3em 0 1em;
   padding: 0;
   font-weight: bold;
+
 }
 
 h1 {
   font-size: 1.6em;
   border-bottom: 1px solid #ddd;
+  color: black;
 }
 
 h2 {

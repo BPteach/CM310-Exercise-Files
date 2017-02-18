@@ -11,13 +11,6 @@
 /* This is the overall wrapper, it should be treated as the `body` section. */
 
 .markdown-here-wrapper {
-  font-family: Avenir, PT-sans, microsoft-yahei;
-  font-size: 15px;
-  color: #333;
-  line-height: 1.8em;
-  letter-spacing: 0.1em;
-  margin: 0.5em 1em;
-  text-align: justify;
 }
 
 /* To add site specific rules, you can use the `data-md-url` attribute that we
@@ -71,7 +64,13 @@ Note that we only use a top margin and not a bottom margin -- this prevents the
 p {
   /* !important is needed here because Hotmail/Outlook.com uses !important to
      kill the margin in <p>. We need this to win. */
-  margin: 0 0 1.2em 0 !important;
+  font-family: Avenir, PT-sans, microsoft-yahei !important;
+  font-size: 15px !important;
+  color: #333 !important;
+  line-height: 1.8em !important;
+  letter-spacing: 0.1em !important;
+  margin: 0.5em 1em !important;
+  text-align: justify !important;
 }
 
 table, pre, dl, blockquote, q, ul, ol {
@@ -86,6 +85,13 @@ ul, ol {
 
 li {
   margin: 0.2em 0;
+  font-family: Avenir, PT-sans, microsoft-yahei !important;
+  font-size: 15px !important;
+  color: #333 !important;
+  line-height: 1.8em !important;
+  letter-spacing: 0.1em !important;
+  margin: 0.5em 1em !important;
+  text-align: justify !important;
 }
 
 /* Space paragraphs in a list the same as the list itself. */

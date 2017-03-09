@@ -135,6 +135,7 @@ blockquote, q {
   border-left: 4px solid #DDD;
   background-color: #fafafa;
   padding: 0 1em;
+  margin: 0 1em;
   color: #777;
   quotes: none;
 }

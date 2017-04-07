@@ -20,14 +20,14 @@
 /* .markdown-here-wrapper[data-md-url*="mail.yahoo."] ul { color: red; } */
 
 pre, code {
-  font-family: Avenir, PT-sans;
+  font-family: Avenir, "PingFangSC-Light";
 
 }
 
 code {
   background-color: #F8F8F8;
   padding: 0.2em 0.5em;
-  font-size: 12px;
+  font-size: 0.9em;
   border-radius: 2px;
   display: inline; /* added to fix Yahoo block display of inline code */
   white-space: pre-wrap;
@@ -61,15 +61,15 @@ our syntax highlighting. */
 Note that we only use a top margin and not a bottom margin -- this prevents the
 "blank line" look at the top of the email (issue #243).
 */
-p {
+p{
   /* !important is needed here because Hotmail/Outlook.com uses !important to
      kill the margin in <p>. We need this to win. */
-  font-family: Avenir, PT-sans, microsoft-yahei !important;
+  font-family: Avenir, "PingFangSC-Light" !important;
   font-size: 15px !important;
   color: #333 !important;
   line-height: 1.8em !important;
   letter-spacing: 0.1em !important;
-  margin: 0.5em 1em !important;
+  margin: 1em 1em !important; /* 增加段落边距 */
   text-align: justify !important;
 }
 
@@ -83,21 +83,24 @@ ul, ol {
 
 }
 
-li {
+li{
   margin: 0.2em 0;
-  font-family: Avenir, PT-sans, microsoft-yahei !important;
+  font-family: Avenir, "PingFangSC-Light" !important;
   font-size: 15px !important;
   color: #333 !important;
   line-height: 1.8em !important;
   letter-spacing: 0.1em !important;
-  margin: 0.5em 1em !important;
-  text-align: justify !important;
+  margin: 0.5em 0.5em !important;
 }
 
-/* Space paragraphs in a list the same as the list itself. */
-li p {
-  /* Needs !important to override rule above. */
-  margin: 0.2em 0 !important;
+ul li {
+  margin: 0.2em 0;
+  font-family: Avenir, "PingFangSC-Light" !important;
+  font-size: 15px !important;
+  color: #333 !important;
+  line-height: 1.8em !important;
+  letter-spacing: 0.1em !important;
+  margin: 0.5em 0.5em !important;
 }
 
 /* Smaller spacing for sub-lists */
@@ -133,10 +136,16 @@ dl dd {
 
 blockquote, q {
   border-left: 4px solid #DDD;
-  background-color: #fafafa;
-  padding: 0 1em;
+  /* background-color: #fafafa;*/
+  padding: 0em; /* 删除内边距 */
+  margin: 0em 1em;
   color: #777;
   quotes: none;
+}
+
+/* 设置引用文本颜色 */
+blockquote p {
+  color: rgb(119, 117, 117) !important
 }
 
 blockquote::before, blockquote::after, q::before, q::after {
@@ -180,12 +189,11 @@ h6 {
 }
 
 table {
-  padding: 0;
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: 1em;
-  font: inherit;
+  font-size: .8em;
   border: 0;
+  font-family: Avenir, "PingFangSC-Light";
 }
 
 tbody {
@@ -200,6 +208,7 @@ table tr {
   background-color: white;
   margin: 0;
   padding: 0;
+
 }
 
 table tr:nth-child(2n) {
@@ -207,7 +216,7 @@ table tr:nth-child(2n) {
 }
 
 table tr th, table tr td {
-  font-size: 1em;
+  font-size: 0.8em;
   border: 1px solid #CCC;
   margin: 0;
   padding: 0.5em 1em;
@@ -215,5 +224,5 @@ table tr th, table tr td {
 
 table tr th {
  font-weight: bold;
-  background-color: #F0F0F0;
+ background-color: #F0F0F0;
 }

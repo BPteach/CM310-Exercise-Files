@@ -136,15 +136,9 @@ dl dd {
 
 blockquote, q {
   border-left: 4px solid #DDD;
-<<<<<<< HEAD
   /* background-color: #fafafa;*/
   padding: 0em; /* 删除内边距 */
   margin: 0em 1em;
-=======
-  background-color: #fafafa;
-  padding: 0 1em;
-  margin: 0 1em;
->>>>>>> origin/master
   color: #777;
   quotes: none;
 }

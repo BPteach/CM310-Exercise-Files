@@ -90,7 +90,7 @@ li{
   color: #333 !important;
   line-height: 1.8em !important;
   letter-spacing: 0.1em !important;
-  margin: 0.5em 0.5em !important;
+  margin: 0.2em 0.2em !important;
 }
 
 ul li {
@@ -100,7 +100,7 @@ ul li {
   color: #333 !important;
   line-height: 1.8em !important;
   letter-spacing: 0.1em !important;
-  margin: 0.5em 0.5em !important;
+  margin: 0.2em 0.2em !important;
 }
 
 /* Smaller spacing for sub-lists */

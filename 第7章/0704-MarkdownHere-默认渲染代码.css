@@ -79,6 +79,11 @@ ul, ol {
   padding-left: 2em;
 }
 
+/* Fix Wechat bullet point display Error */
+ul{
+ list-style-type: disc !important;
+}
+
 li {
   margin: 0.5em 0;
 }

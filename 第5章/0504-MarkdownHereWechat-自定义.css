@@ -78,17 +78,10 @@ table, pre, dl, blockquote, q, ul, ol {
 }
 
 ul, ol {
-  padding-left: 0em;
-  margin: 1.2em 2em;
-
+  padding-left: 2.2em !important;
 }
 
-/* Fix Wechat bullet point display Error */
-ul{
- list-style-type: disc !important;
-}
-
-ul,ol,ul li, li p,li{
+ul,ol,ul li,li p{
   margin: 0.2em 0;
   font-family: Avenir, "PingFangSC-Light" !important;
   font-size: 15px !important;
@@ -97,6 +90,7 @@ ul,ol,ul li, li p,li{
   letter-spacing: 0.1em !important;
   margin: 0.2em 0.2em !important;
 }
+
 
 
 /* Smaller spacing for sub-lists */
@@ -113,6 +107,8 @@ ol ol, ul ol {
 /* Use letters for sub-sub-ordered lists. (Like Github.) */
 ul ul ol, ul ol ol, ol ul ol, ol ol ol {
   list-style-type: square;
+  margin-right: 0em;
+
 }
 
 dl {
@@ -152,7 +148,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1.3em 0 1em;
   padding: 0;
   font-weight: bold;
-
 }
 
 h1 {
@@ -169,6 +164,7 @@ h2 {
 
 h3 {
   font-size: 1.3em;
+  padding-left: 0.7em;
 }
 
 h4 {

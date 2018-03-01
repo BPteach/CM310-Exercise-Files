@@ -88,7 +88,7 @@ ul{
  list-style-type: disc !important;
 }
 
-li{
+ul,ol,ul li, li p,li{
   margin: 0.2em 0;
   font-family: Avenir, "PingFangSC-Light" !important;
   font-size: 15px !important;
@@ -98,15 +98,6 @@ li{
   margin: 0.2em 0.2em !important;
 }
 
-ul li {
-  margin: 0.2em 0;
-  font-family: Avenir, "PingFangSC-Light" !important;
-  font-size: 15px !important;
-  color: #333 !important;
-  line-height: 1.8em !important;
-  letter-spacing: 0.1em !important;
-  margin: 0.2em 0.2em !important;
-}
 
 /* Smaller spacing for sub-lists */
 ul ul, ul ol, ol ul, ol ol {

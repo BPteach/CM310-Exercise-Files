@@ -378,13 +378,13 @@ body p{
     margin-top: 1.5em ;
     margin-bottom: 1.5em ;
 }
-body ul p,blockquote p{
+body ul p, body ol p, blockquote p{
     margin-left: 0em !important;
     margin-right: 0em !important;
     margin-top: 0em !important;
     margin-bottom: 0em !important;
 }
-ul{
+ul,ol{
     margin-left: 0.5em !important;
     margin-right: 1em !important;
     margin-top: 0em !important;
@@ -405,14 +405,14 @@ p{
 }
 
 /*@让Toropra客户端的列表上下边距合理*/
-ul li p{
+ul li p,ol li p{
     margin:0em;
     -webkit-margin-before:0em;
     -webkit-margin-before:0em;
     font-size:16px !important;
 }
 
-ul li p span{
+ul li p span,ol li p span{
   font-family: Avenir, "PingFangTC-Light" !important;
   margin:0em;
   -webkit-margin-before:0em;
@@ -429,7 +429,5 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
 }
-
-
 
 

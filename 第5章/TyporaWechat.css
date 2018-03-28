@@ -88,13 +88,13 @@ h1 {
 }
 h2 {
    padding-bottom: .3em;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
     text-align: center;
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.43;
 }
 h4 {
@@ -394,7 +394,7 @@ ul,ol{
 
 
 p{
-    font-family: Avenir, "PingFangTC-Light" !important;
+    font-family: Avenir, "PingFangSC-Light" !important;
     line-height: 1.8em !important;
     font-size: 16px !important;
     box-sizing: border-box !important;
@@ -414,7 +414,7 @@ ul li p,ol li p{
 }
 
 ul li p span,ol li p span{
-  font-family: Avenir, "PingFangTC-Light" !important;
+  font-family: Avenir, "PingFangSC-Light" !important;
   margin:0em;
   -webkit-margin-before:0em;
   -webkit-margin-before:0em;
@@ -425,9 +425,8 @@ ul li p span,ol li p span{
 h2{
     text-align: center;
 }
-blockquote {
+blockquote,h3,h2 {
     margin-left: 1em;
-   
 }
 
 

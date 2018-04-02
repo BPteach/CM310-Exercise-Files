@@ -87,8 +87,8 @@ h1 {
     border-bottom: 1px solid #eee;
 }
 h2 {
-   padding-bottom: .3em;
-    font-size: 1.5em;
+    padding-bottom: .3em;
+    font-size: 1.4em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
     text-align: center;
@@ -98,7 +98,7 @@ h3 {
     line-height: 1.43;
 }
 h4 {
-    font-size: 1.25em;
+    font-size: 1.1em;
 }
 h5 {
     font-size: 1em;

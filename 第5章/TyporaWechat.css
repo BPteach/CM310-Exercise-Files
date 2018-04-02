@@ -425,7 +425,10 @@ ul li p span,ol li p span{
 h2{
     text-align: center;
 }
-blockquote,h3 {
+blockquote{
+    margin-left: 1em;
+}
+h3 {
     margin-left: 0.7em;
 }
 

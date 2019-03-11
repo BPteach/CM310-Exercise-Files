@@ -90,7 +90,8 @@ h2 {
     font-size: 1.4em;
     line-height: 1.225;
     border-bottom: 1px solid #eee;
-    text-align: center;
+    text-align: left;
+    margin-left: 0.7em;
 }
 h3 {
     font-size: 1.2em;
@@ -393,7 +394,7 @@ ul,ol{
 
 
 p{
-    font-family: Avenir, "PingFangSC-Light" !important;
+    font-family: Avenir, "PingFangTC-Light" !important;
     line-height: 1.8em !important;
     font-size: 16px !important;
     box-sizing: border-box !important;
@@ -413,7 +414,7 @@ ul li p,ol li p{
 }
 
 ul li p span,ol li p span{
-  font-family: Avenir, "PingFangSC-Light" !important;
+  font-family: Avenir, "PingFangTC-Light" !important;
   margin:0em;
   -webkit-margin-before:0em;
   -webkit-margin-before:0em;
@@ -421,9 +422,7 @@ ul li p span,ol li p span{
 }
 
 
-h2{
-    text-align: center;
-}
+
 blockquote{
     margin-left: 1em;
 }
